@@ -1,0 +1,133 @@
+﻿<style>
+    .card-single {
+        color: white !important;
+        border-radius: 35px !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        @*padding-left: 60px;*@
+        margin-left: 15%;
+        margin-top: 30px;
+        width: 450px;
+        padding: 64px 64px 42px;
+        @*min-height: 400px;*@
+        text-align: center;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        @*position: relative;*@
+        display: flex;
+        flex-direction: column;
+        @*border: 1px solid rgba(255, 255, 255, 0.1);*@
+        @*border-radius: 16px;*@
+        @*transition: all 0.12s ease-in-out 0s;*@
+        @*user-select: none;*@
+        @*cursor: pointer;
+        line-height: normal;*@
+    }
+
+    .card-multiple {
+        color: white !important;
+        border-radius: 35px !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        @*padding-left: 60px;*@
+         margin-left: -5%;
+        margin-top: 30px;
+        width: 450px;
+        padding: 64px 64px 42px;
+        @*min-height: 400px;
+        *@ text-align: center;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        @*position: relative;
+        *@ display: flex;
+        flex-direction: column;
+        @*border: 1px solid rgba(255, 255, 255, 0.1);
+        *@ @*border-radius: 16px;
+        *@ @*transition: all 0.12s ease-in-out 0s;
+        *@ @*user-select: none;
+        *@ @*cursor: pointer;
+        line-height: normal;
+        *@
+    }
+
+    .span-titulo {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 46px;
+        padding-left: 20px;
+        margin-left: 5%;
+        color: rgb(255, 255, 255);
+    }
+
+    .span-subtitulo {
+        font-size: 22px;
+        font-family: inherit;
+        font-weight: inherit;
+        vertical-align: inherit;
+        color: rgb(140, 140, 140);
+        margin: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        border: 0px none;
+        margin-left: 7%;
+        font-weight: 400;
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .span-subtitulo-white {
+        color: white;
+        font-size: 24px;
+        font-family: inherit;
+        font-weight: 700;
+    }
+
+    .span-subtitulo-grey {
+        font-size: 16px;
+        margin-top: 12px;
+        font-family: inherit;
+        font-weight: inherit;
+        vertical-align: inherit;
+        color: rgb(140, 140, 140);
+    }
+
+    .imagem{
+        margin: 30px;
+    }
+
+</style>
+
+<div class="span-titulo">
+    <span>Choose Type</span>
+</div>
+<div class="span-subtitulo">
+    <span>Choose “Single” for one of a kind or “Multiple” if you want to sell
+    <br />one collectible multiple times</span>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <a class="btn card-single" asp-area="" asp-controller="Course" asp-action="Single">
+            <img src="/images/Single.png" width="60" height="92" class="imagem">
+            <span class="span-subtitulo-white" style="margin: 10px">
+                Single
+            </span>
+            <span class="span-subtitulo-grey">
+                If you want to highlight the uniqueness and individuality of your item
+            </span>
+        </a>
+    </div>
+    <div class="col-6">
+        <a class="btn card-multiple" asp-area="" asp-controller="Course" asp-action="Multiple">
+            <img src="/images/Multiple.png" width="60" height="92" class="imagem">
+            <span class="span-subtitulo-white" style="margin: 10px">
+                Multiple
+            </span>
+            <span class="span-subtitulo-grey">
+                If you want to share your item with a large number of community members
+            </span>
+        </a>
+    </div>
+</div>

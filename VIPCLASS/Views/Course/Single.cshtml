@@ -1,0 +1,102 @@
+﻿<style>
+    .card-upload {
+        border: 2px dashed rgba(255, 255, 255, 0.1);
+        min-height: 150px;
+        min-width: 450px !important;
+        padding: 32px 60px;
+        position: relative;
+        border-radius: 16px;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 35%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .card-preview {
+        border-width: 0px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: center;
+        align-items: center;
+        width: 255px;
+        height: 320px;
+        display: flex;
+        background: rgb(18, 18, 18) none repeat scroll 0% 0%;
+        padding: 40px;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 10px;
+        margin-left: 35%;
+    }
+
+    .span-preview {
+        font-family: inherit;
+        font-weight: inherit;
+        text-align: center;
+        font-size: 15px;
+        color: rgb(140, 140, 140);
+    }
+
+    .span-custom {
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        text-align: center;
+        color: rgb(140, 140, 140);
+        font-size: 15px;
+    }
+
+    .span-subtitulo {
+        color: rgb(255, 255, 255);
+        margin-left:35%;
+        font-weight: bold;
+    }
+
+    .span-titulo {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 46px;
+        padding: 20px;
+        margin-left: 15%;
+        color: rgb(255, 255, 255);
+    }
+</style>
+
+<div class="span-titulo">
+    <span>Create single item</span>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <div class="span-subtitulo">
+            <span>Upload file</span>
+        </div>
+        <div class="card-upload">
+            <span class="span-custom">
+                PNG, GIF, WEBP, MP4 or MP3. Max 100mb.
+            </span>
+            <br /><br />
+            <a class="btn btn-primary" asp-area="" asp-controller="Course" asp-action="Start">
+                <b>Choose File</b>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-4">
+        <div class="span-subtitulo">
+            <span>Preview</span>
+        </div>
+        <div class="card-preview">
+            <div class="row">
+                <span class="span-preview">
+                    Upload file to preview your brand new NFT
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
