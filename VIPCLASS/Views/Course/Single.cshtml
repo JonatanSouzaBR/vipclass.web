@@ -208,11 +208,10 @@
                 <br />
                 <div class="row col-6">
                     <div class="span-subtitulo">
-                        <input type="submit" class="btn btn-primary" value="Create course" style="font-weight: bold"/>
+                        <input type="submit" id="createCourse" class="btn btn-primary" value="Create course" style="font-weight: bold" />
                     </div>
                 </div>
             </form>
-
         </div>
 
         <div class="col-auto" id="main">
@@ -223,11 +222,6 @@
                 <div class="card-preview col-auto">
                     <div class="row">
                         <span class="span-preview">
-                            @*<label id="msgPreview">
-                                Upload file to preview your brand new NFT
-                            </label>*@
-                            @*<img class="card-preview" id="imgPreview" src="#" />*@
-
                             <video class="video-preview" controls>
                                 Upload file to preview your brand new NFT
                             </video>
@@ -240,11 +234,20 @@
     </div>
 </div>
 
+<div id="message" class="alert alert-success" role="alert" style="display: none;">
+    <b>Success</b>
+</div>
+
 <script>
     document.getElementById("file")
         .onchange = function (event) {
             let file = event.target.files[0];
             let blobURL = URL.createObjectURL(file);
             document.querySelector("video").src = blobURL;
+        };
+
+    document.getElementById("createCourse")
+        .onclick = function (event) {
+            document.getElementById("message").removeAttribute("style");
         };
 </script>

@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{92D2BC78-55F4-4865-A6A8-5DD4FB999E93}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="VIPCLASS/Controllers/CourseController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VIPCLASS/Views/Course/Single.cshtml">
     <Files>
-      <File FileName="VIPCLASS/Controllers/CourseController.cs" Line="1" Column="1" />
+      <File FileName="VIPCLASS/Controllers/CourseController.cs" Line="38" Column="1" />
+      <File FileName="VIPCLASS/Views/Course/Single.cshtml" Line="242" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VIPCLASS" expanded="True">
             <Node name="VIPCLASS" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CourseController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Course" expanded="True">
+                  <Node name="Single.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -17,7 +21,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.VIPCLASS PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.VIPCLASS PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
