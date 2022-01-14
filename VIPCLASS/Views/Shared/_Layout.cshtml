@@ -40,7 +40,7 @@
         border-radius: 35px !important;
     }
 
-    .form-control {
+    .form-control-custom {
         display: block;
         width: 100%;
         height: calc(1.5em + 0.75rem + 2px);
@@ -156,7 +156,7 @@
                 </a>
 
                 <form class="form-inline my-2 my-lg-2">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" size="30">
+                    <input class="form-control mr-sm-2 form-control-custom" type="search" placeholder="Search" aria-label="Search" size="30">
                     <button class="btn btn-dark mr-2" type="submit">
                         <i class="fas fa-search"></i> <b>Search</b>
                     </button>
@@ -178,7 +178,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="btn btn-create btn-round-sm mr-2" asp-area="" asp-controller="Course" asp-action="Start">
+                            <a class="btn btn-create btn-round-sm mr-2" asp-area="" asp-controller="Course" asp-action="Single">
                                 <b>Create</b>
                             </a>
                         </li>

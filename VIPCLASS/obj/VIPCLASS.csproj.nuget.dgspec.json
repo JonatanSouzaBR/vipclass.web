@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jonatansouza/Desktop/Projetos/VIPCLASS/VIPCLASS/VIPCLASS.csproj": {}
+    "/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/VIPCLASS.csproj": {}
   },
   "projects": {
-    "/Users/jonatansouza/Desktop/Projetos/VIPCLASS/VIPCLASS/VIPCLASS.csproj": {
+    "/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/VIPCLASS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jonatansouza/Desktop/Projetos/VIPCLASS/VIPCLASS/VIPCLASS.csproj",
+        "projectUniqueName": "/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/VIPCLASS.csproj",
         "projectName": "VIPCLASS",
-        "projectPath": "/Users/jonatansouza/Desktop/Projetos/VIPCLASS/VIPCLASS/VIPCLASS.csproj",
+        "projectPath": "/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/VIPCLASS.csproj",
         "packagesPath": "/Users/jonatansouza/.nuget/packages/",
-        "outputPath": "/Users/jonatansouza/Desktop/Projetos/VIPCLASS/VIPCLASS/obj/",
+        "outputPath": "/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jonatansouza/.config/NuGet/NuGet.Config"

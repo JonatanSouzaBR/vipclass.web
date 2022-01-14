@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gMeO7kSyptEkwlR5irMMdYSSY1c+Q40iSz0lpD696vUgxHjU6TtvkuScimsrbUObjC/QbfFlA1O7gwxyG/QHzw==",
+  "dgSpecHash": "2+vqWvG0/qS0LXc36yjaQl2MHTiR8AOUfSrOcK9LhXMheTlKQiah3aI1n3i5iW+mlX18o5r7rGt70jyID8mCHw==",
   "success": true,
-  "projectFilePath": "/Users/jonatansouza/Desktop/Projetos/VIPCLASS/VIPCLASS/VIPCLASS.csproj",
+  "projectFilePath": "/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/VIPCLASS.csproj",
   "expectedPackageFiles": [
     "/Users/jonatansouza/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/3.1.22/microsoft.aspnetcore.mvc.razor.extensions.3.1.22.nupkg.sha512",
     "/Users/jonatansouza/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.22/microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.22.nupkg.sha512",

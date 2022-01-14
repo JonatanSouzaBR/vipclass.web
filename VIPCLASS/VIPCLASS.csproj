@@ -15,8 +15,10 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Course\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Course\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
 </Project>
