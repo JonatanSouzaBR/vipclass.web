@@ -1,19 +1,22 @@
 ﻿<Properties StartupConfiguration="{92D2BC78-55F4-4865-A6A8-5DD4FB999E93}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="VIPCLASS/Views/Course/Single.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VIPCLASS/Controllers/CourseController.cs">
     <Files>
-      <File FileName="VIPCLASS/Controllers/CourseController.cs" Line="38" Column="1" />
+      <File FileName="VIPCLASS/Controllers/CourseController.cs" Line="61" Column="114" />
       <File FileName="VIPCLASS/Views/Course/Single.cshtml" Line="242" Column="36" />
+      <File FileName="VIPCLASS/ViewModels/SingleCourseViewModel.cs" Line="11" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VIPCLASS" expanded="True">
             <Node name="VIPCLASS" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CourseController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Course" expanded="True">
-                  <Node name="Single.cshtml" selected="True" />
-                </Node>
+                <Node name="Course" expanded="True" />
               </Node>
             </Node>
           </Node>

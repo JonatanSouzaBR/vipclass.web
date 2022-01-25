@@ -708,3 +708,4 @@
 /Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/obj/Debug/netcoreapp3.1/VIPCLASS.dll
 /Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/obj/Debug/netcoreapp3.1/VIPCLASS.pdb
 /Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/obj/Debug/netcoreapp3.1/VIPCLASS.genruntimeconfig.cache
+/Users/jonatansouza/Desktop/Projects/vipclass.web/VIPCLASS/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

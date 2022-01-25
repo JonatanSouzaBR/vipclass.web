@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.22" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,9 +17,22 @@
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Course\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Application\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Proxy\" />
+    <Folder Include="Application\Interface\" />
+    <Folder Include="Proxy\Interface\" />
+    <Folder Include="Domain\Interface\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Course\" />
     <None Remove="ViewModels\" />
+    <None Remove="Application\" />
+    <None Remove="Domain\" />
+    <None Remove="Proxy\" />
+    <None Remove="Application\Interface\" />
+    <None Remove="Proxy\Interface\" />
+    <None Remove="Domain\Interface\" />
+    <None Remove="Newtonsoft.Json" />
   </ItemGroup>
 </Project>
